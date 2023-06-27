@@ -1,0 +1,143 @@
+.about1-sec{
+    background-color: #F1F1F3 ;
+}
+.about-full{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 4rem;
+}
+.about-left{
+    margin: auto;
+}
+.about-left h2{
+    text-align:left;
+    font-size: 2.8rem;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.about-left p{
+    margin-top: -3rem;
+    font-size: 1.2rem;
+}
+.btn{
+    display: flex;
+    margin-top: 1.6rem;
+    gap:1rem;
+}
+.btn button {
+    padding: 10px 12px;
+    background-color: #063547;
+    border: none;
+    font-size: 16px;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+}
+.btn button:hover {
+    padding: 10px 12px;
+    background-color: #05658a;
+    border: none;
+    font-size: 16px;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+}
+.about-right{
+    width: 100%;
+    
+    /* margin: auto; */
+}
+.about-right img{
+    width: 100%;
+}
+
+
+
+.about-categories{
+    background-color: #FFFFFF;
+}
+.about-category{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+.about-cat{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    margin-left: 2.4rem;
+    background-color: #F5F3EF;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.box i{
+   font-size:2.5rem;
+    margin-top: 3.3rem;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.about-cat h5{
+    margin-top:1.5rem;
+    font-size: 1rem;
+}
+.about-cat p{
+    margin-top:0.5rem;
+    font-size: 16px;
+    padding: 0 16px ;
+}
+
+
+
+
+
+@media (max-width: 760px){
+    .about-full{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        gap: 2rem;
+    }
+    .about-left{
+        margin: auto;
+    }
+    .about-left h2{
+        margin-top: -2rem;
+        text-align:center;
+        font-size: 2.4rem;
+        font-family: 'Akaya Kanadaka', cursive;
+    }
+    .about-left p{
+        text-align: center;
+        margin-top: -3rem;
+        font-size: 1rem;
+    }
+    .btn{
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+    }
+    .about-right{
+       margin: auto;
+    }
+    .about-category{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+
+}
+
+@media (max-width: 550px){
+    .about-category{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+    }
+    .box{
+     margin-left: 6.5rem;
+    
+    }
+}
